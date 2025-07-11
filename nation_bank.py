@@ -70,7 +70,7 @@ class SavingsAccount(Bank):
 class PremiumAccount(Bank):
     def account_type(self):
         print("You are using a Premium Account with extra benefits")
-# ---------------- Main Program ----------------
+#  Main Program 
 print(f"\nWelcome to {Bank.bankname} - {Bank.branch}")
 username = input("Enter your name: ")
 mobile = input("Enter your mobile number: ")
